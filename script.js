@@ -1,4 +1,3 @@
-
 var audio = new Audio("music.mp3")
 audio.loop = true
 document.getElementById("toggleMusicButton").onclick = function() {
@@ -8,7 +7,6 @@ var spinAudio = new Audio("spin.mp3")
 var jackpotAudio = new Audio("jackpot.ogg")
 var winAudio = new Audio("win.ogg")
 var loseAudio = new Audio("lose.mp3")
-var noneAudio = new Audio("none.ogg")
 var balance = 2000
 var symbols = [
 	{ name: "umbrella", file: "1.png", frequency: 7 },
